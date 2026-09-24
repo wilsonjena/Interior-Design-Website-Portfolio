@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary-color: #1c261d;
+  --secondary-color: #2a352c;
+  --accent-color: #b68d40;
+  --accent-hover: #9e752f;
+  --background-color: #faf8f5;
+  --text-color: #242724;
+  --card-bg: #ffffff;
+  --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-script: 'Playfair Display', Georgia, serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-script {
+  font-family: var(--font-script);
+  font-style: italic;
+}
+
+/* Custom editorial line accents */
+.editorial-rule {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(182, 141, 64, 0.6) 0%, rgba(182, 141, 64, 0.1) 100%);
+}
+
+.editorial-divider {
+  width: 48px;
+  height: 2px;
+  background-color: var(--accent-color);
+}
+
+/* Custom pill utility class for buttons if needed */
+.btn-pill {
+  border-radius: 9999px !important;
+}

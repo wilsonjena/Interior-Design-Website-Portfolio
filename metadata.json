@@ -1,0 +1,8 @@
+{
+  "name": "Interior Design Business Master Template",
+  "description": "A reusable, professional interior-business website wireframe and master template todeliver websites fast.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

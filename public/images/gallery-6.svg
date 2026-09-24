@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%" fill="none">
+  <rect width="600" height="450" fill="#0f172a" />
+  <g stroke="rgba(255,255,255,0.18)" stroke-width="2">
+    <rect x="100" y="80" width="400" height="280" rx="4" />
+    <line x1="230" y1="80" x2="230" y2="360" stroke="#d97706" />
+    <line x1="370" y1="80" x2="370" y2="360" stroke="#3b82f6" />
+  </g>
+  <rect x="70" y="340" width="180" height="24" rx="4" fill="rgba(15,23,42,0.8)" />
+  <text x="80" y="356" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="600">EXECUTIVE SUITE</text>
+  <text x="80" y="380" fill="rgba(255,255,255,0.6)" font-family="system-ui, sans-serif" font-size="11">Glass Demising & Acoustic Walls</text>
+</svg>

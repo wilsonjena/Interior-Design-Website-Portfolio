@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.2" />
+    </linearGradient>
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bgGrad)" />
+  <rect width="1200" height="675" fill="url(#accentGlow)" />
+  <rect width="1200" height="675" fill="url(#archGrid)" />
+
+  <!-- Architectural Studio Perspective Lines -->
+  <g stroke="rgba(255,255,255,0.15)" stroke-width="1.5" fill="none">
+    <path d="M 150 550 L 600 200 L 1050 550" />
+    <path d="M 600 200 L 600 100" />
+    <path d="M 150 550 L 150 250 L 600 100 L 1050 250 L 1050 550" />
+    <line x1="300" y1="350" x2="300" y2="550" stroke="rgba(217, 119, 6, 0.4)" stroke-dasharray="4 4" />
+    <line x1="900" y1="350" x2="900" y2="550" stroke="rgba(59, 130, 246, 0.4)" stroke-dasharray="4 4" />
+    <circle cx="600" cy="200" r="6" fill="#d97706" />
+    <circle cx="150" cy="550" r="4" fill="white" />
+    <circle cx="1050" cy="550" r="4" fill="white" />
+  </g>
+
+  <!-- Modern Furniture & Workspace Geometry -->
+  <rect x="360" y="420" width="480" height="90" rx="8" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+  <line x1="420" y1="510" x2="400" y2="580" stroke="rgba(255,255,255,0.2)" stroke-width="3" />
+  <line x1="780" y1="510" x2="800" y2="580" stroke="rgba(255,255,255,0.2)" stroke-width="3" />
+
+  <!-- Studio Ambient Lighting Fixture -->
+  <line x1="600" y1="100" x2="600" y2="280" stroke="#f59e0b" stroke-width="2" />
+  <circle cx="600" cy="280" r="14" fill="#f59e0b" fill-opacity="0.3" stroke="#f59e0b" stroke-width="2" />
+  <circle cx="600" cy="280" r="6" fill="#fff" />
+
+  <!-- Label Badge -->
+  <g transform="translate(600, 350)">
+    <rect x="-180" y="-22" width="360" height="44" rx="22" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">CLIENT HERO VISUAL SLOT</text>
+  </g>
+  <text x="600" y="620" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui, sans-serif" font-size="13">Replace in config.images.heroImage with client photography</text>
+</svg>

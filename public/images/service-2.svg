@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" fill="none">
+  <rect width="600" height="400" fill="#0f172a" />
+  <!-- Layers & Blueprint concept -->
+  <g stroke="rgba(255,255,255,0.2)" stroke-width="2">
+    <polygon points="300,90 480,170 300,250 120,170" fill="rgba(217, 119, 6, 0.15)" stroke="#d97706" />
+    <polygon points="300,140 480,220 300,300 120,220" fill="rgba(59, 130, 246, 0.15)" stroke="#3b82f6" />
+  </g>
+  <text x="300" y="340" text-anchor="middle" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="16" font-weight="600">CUSTOM DESIGN & PLANNING</text>
+  <text x="300" y="370" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="12">Configurable Service Asset 02</text>
+</svg>

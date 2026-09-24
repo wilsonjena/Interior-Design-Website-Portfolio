@@ -1,0 +1,28 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1e293b" />
+  <rect x="20" y="20" width="760" height="560" stroke="#334155" stroke-width="2" stroke-dasharray="8 8" />
+  
+  <!-- Bare construction room illustration -->
+  <path d="M100 480L250 380H550L700 480H100Z" fill="#334155" opacity="0.5"/>
+  <path d="M250 160V380H550V160H250Z" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <line x1="250" y1="160" x2="100" y2="100" stroke="#475569" stroke-width="2"/>
+  <line x1="550" y1="160" x2="700" y2="100" stroke="#475569" stroke-width="2"/>
+  <line x1="250" y1="380" x2="100" y2="480" stroke="#475569" stroke-width="2"/>
+  <line x1="550" y1="380" x2="700" y2="480" stroke="#475569" stroke-width="2"/>
+
+  <!-- Raw window opening -->
+  <rect x="320" y="200" width="160" height="120" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+  <line x1="400" y1="200" x2="400" y2="320" stroke="#475569" stroke-width="2"/>
+  <line x1="320" y1="260" x2="480" y2="260" stroke="#475569" stroke-width="2"/>
+
+  <!-- Bare hanging lightbulb -->
+  <line x1="400" y1="60" x2="400" y2="130" stroke="#64748b" stroke-width="2"/>
+  <circle cx="400" cy="140" r="10" fill="#64748b"/>
+
+  <!-- Badge label -->
+  <rect x="40" y="40" width="130" height="36" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1.5" />
+  <text x="105" y="63" fill="#f87171" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="1">BEFORE</text>
+  
+  <text x="400" y="525" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Untreated Raw Concrete & Bare Layout</text>
+  <text x="400" y="550" fill="#64748b" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Poor lighting, uncoordinated space, no acoustic or thermal comfort</text>
+</svg>
