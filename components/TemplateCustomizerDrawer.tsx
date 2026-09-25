@@ -76,17 +76,6 @@ export function TemplateCustomizerDrawer() {
 
   return (
     <>
-      {/* Floating Trigger Button */}
-      <button
-        onClick={() => setIsOpen(true)}
-        className="fixed bottom-20 md:bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-2.5 bg-neutral-900 text-white rounded-full shadow-2xl hover:bg-neutral-800 transition-all border border-neutral-700 text-xs font-semibold hover:scale-105 active:scale-95 cursor-pointer"
-        title="Open Template Customization Demo"
-      >
-        <Sliders className="w-4 h-4 text-amber-400" />
-        <span>Customize Template</span>
-        <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-      </button>
-
       {/* Slide-out Drawer */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex justify-end bg-neutral-950/40 backdrop-blur-xs">

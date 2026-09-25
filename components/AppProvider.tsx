@@ -5,7 +5,6 @@ import { ClientConfigProvider } from '@/context/ClientConfigContext';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MobileContactBar } from '@/components/MobileContactBar';
-import { TemplateCustomizerDrawer } from '@/components/TemplateCustomizerDrawer';
 import { LocalBusinessJsonLd } from '@/components/LocalBusinessJsonLd';
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
@@ -17,7 +16,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         <main className="flex-1">{children}</main>
         <Footer />
         <MobileContactBar />
-        <TemplateCustomizerDrawer />
       </div>
     </ClientConfigProvider>
   );
